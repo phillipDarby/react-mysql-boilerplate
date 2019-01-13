@@ -1,19 +1,21 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
+import List from './List';
+import Form from './Form';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+const App = () => {
+  return (
+    <div className="App">
+      <div className="col-md-4 offset-md-1">
+        <h2>Users</h2>
+        <List />
       </div>
-    );
-  }
-}
+      <div className="col-md-4 offset-md-1">
+        <h2>Add a new user</h2>
+        <Form />
+      </div>
+    </div>
+  );
+};
 
 export default App;
