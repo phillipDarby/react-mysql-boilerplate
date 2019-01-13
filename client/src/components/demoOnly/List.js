@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { getUsers } from '../actions/index';
+import { getUsers } from '../../actions/index';
 
 const mapStateToProps = state => {
   return { users: state.users };
 };
 
 class ConnectedList extends Component {
-  constructor() {
-    super();
-  }
   componentDidMount() {
     // calling the new action creator
     this.props.getUsers();

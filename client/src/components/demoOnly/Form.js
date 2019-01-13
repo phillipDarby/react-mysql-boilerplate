@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import uuidv1 from 'uuid';
-import { addUser } from '../actions/index';
+import { addUser } from '../../actions/index';
 
 function mapDispatchToProps(dispatch) {
   return {

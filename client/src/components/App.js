@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import List from './List';
-import Form from './Form';
+import List from './demoOnly/List';
+import Form from './demoOnly/Form';
 
 const App = () => {
   return (
