@@ -39,7 +39,9 @@ Once the dependencies have been installed from both directories, you can start t
 
 To use redux:
 add `action-type` to `./constants/action-types.js`
+
 add `reducer` to `./reducers/index.js`
+
 add `action` to `./actions/index.js`
 
 you should not need to modify the `store` at `./store.index.js` unless you are adding more middleware.
