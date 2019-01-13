@@ -1,4 +1,4 @@
-# MySQL React Node Express
+# MySQL React Node Express with Enzyme and Jest
 
 # Description
 
