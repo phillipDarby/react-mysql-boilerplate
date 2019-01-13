@@ -1,29 +1,21 @@
 # MySQL React Node Express
+
 # Description
 
-This starter template is using create-react-app and is using the MERN stack. Not Mongodb but MySQL. If you wish to use a different DB, take a look at the [express database integration docs](https://expressjs.com/en/guide/database-integration.html).
+This starter template is using create-react-app and is using the MERN stack. Not Mongodb but MySQL.
 
 # Getting Started
+
 Start by cloning the repo
 
-`git clone https://github.com/ccsalazar/react-mysql-boilerplate.git MyApp` 
+`git clone https://github.com/phillipDarby/react-mysql-boilerplate.git MyAppName`
 
 There are two package.json files that will need to be used to install dependencies. One in the root directory and one in the client directory.
 
-# Using Yarn
-
-From the root directoy and the client directory install dependencies by running
-
-`yarn`
-
-Once the dependencies have been installed from both directories, you can start the template from the root directory by running
-
-`yarn run dev`
-
-
 # Using NPM
 
-This template is already set up to use yarn but if you prefer to use npm then there will be slight modifications to the scripts inside the root directories package.json file. Just update your package.json scripts in the root directory to:
+This template is already set up to use NPM.
+Just update your package.json scripts in the root directory to:
 
 ```
   "scripts": {
@@ -45,15 +37,8 @@ Once the dependencies have been installed from both directories, you can start t
 
 # Configuring dev environment keys
 
-Inside the server/config directory you can add a `dev.js` file to hold your db information or things like API keys while you develop. This repo is already set to .gitignore `dev.js` but if you name your file something different just don't forget to update your .gitignore. 
+Inside the server/config directory you can add a `dev.js` file to hold your db information or things like API keys while you develop. This repo is already set to .gitignore `dev.js` but if you name your file something different just don't forget to update your .gitignore.
 
 # Heroku Deploy Option
 
-There is a heroku-postbuild script included in the template if you choose to deploy to Heroku. [This article](https://daveceddia.com/deploy-react-express-app-heroku/) by Dave Ceddia covers the reasoning pretty well. But basically it tells heroku to install the react-scripts needed to build the React app. By default the react-scripts are not installed in production. 
-
-
-
-
-
-
-
+There is a heroku-postbuild script included in the template if you choose to deploy to Heroku. [This article](https://daveceddia.com/deploy-react-express-app-heroku/) by Dave Ceddia covers the reasoning pretty well. But basically it tells heroku to install the react-scripts needed to build the React app. By default the react-scripts are not installed in production.
