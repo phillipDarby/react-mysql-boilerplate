@@ -38,6 +38,7 @@ Once the dependencies have been installed from both directories, you can start t
 # Using Redux
 
 To use redux:
+
 add `action-type` to `./constants/action-types.js`
 
 add `reducer` to `./reducers/index.js`
