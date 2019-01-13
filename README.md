@@ -35,6 +35,17 @@ Once the dependencies have been installed from both directories, you can start t
 
 `npm run dev`
 
+# Using Redux
+
+To use redux:
+add `action-type` to `./constants/action-types.js`
+add `reducer` to `./reducers/index.js`
+add `action` to `./actions/index.js`
+
+you should not need to modify the `store` at `./store.index.js` unless you are adding more middleware.
+
+for more detailed tutorial visit `https://www.valentinog.com/blog/redux/`
+
 # Configuring dev environment keys
 
 Inside the server/config directory you can add a `dev.js` file to hold your db information or things like API keys while you develop. This repo is already set to .gitignore `dev.js` but if you name your file something different just don't forget to update your .gitignore.
