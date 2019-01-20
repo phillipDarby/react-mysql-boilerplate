@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import List from './demoOnly/List';
 import Form from './demoOnly/Form';
 

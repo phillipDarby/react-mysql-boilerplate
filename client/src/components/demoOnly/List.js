@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { getUsers } from '../../actions/index';
+import { getUsers } from '../../core/actions/actions-users.js';
 
 const mapStateToProps = state => {
   return { users: state.users };
@@ -14,7 +14,7 @@ class ConnectedList extends Component {
   render() {
     return (
       <ul className="list-group list-group-flush">
-        {this.props.users.map(el => (
+        {this.props.users.users.map(el => (
           <li className="list-group-item" key={el.id}>
             {el.name}
           </li>

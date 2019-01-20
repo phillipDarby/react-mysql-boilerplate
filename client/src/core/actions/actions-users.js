@@ -1,5 +1,5 @@
 // src/js/actions/index.js
-import { ADD_USER, DATA_LOADED } from '../constants/action-types';
+import { ADD_USER, DATA_LOADED } from '../types';
 
 export function addUser(payload) {
   return { type: ADD_USER, payload };
